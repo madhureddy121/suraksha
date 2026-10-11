@@ -1,0 +1,43 @@
+{
+  "document_id": "NCS-IT-VSR-06",
+  "title": "Approved Vendor Security Requirements",
+  "version": "1.2",
+  "effective_date": "2026-06-01",
+  "classification": "Internal (Sample Data)",
+  "vendor_categories": [
+    {
+      "category_name": "Customer Data Processing",
+      "required_certifications": [
+        "ISO/IEC 27001",
+        "SOC 2 Type II"
+      ],
+      "data_handling_requirements": "Customer data must be encrypted in transit and at rest using AES-256; data may not be used for the vendor's own purposes; a deletion certificate is required at contract end.",
+      "review_frequency": "Every 6 months"
+    },
+    {
+      "category_name": "Software and SaaS",
+      "required_certifications": [
+        "ISO/IEC 27001"
+      ],
+      "data_handling_requirements": "Company data must remain in the approved tenant; security patches applied within 30 days of release for critical vulnerabilities.",
+      "review_frequency": "Annual"
+    },
+    {
+      "category_name": "Network Equipment",
+      "required_certifications": [
+        "ISO/IEC 27001",
+        "Common Criteria certification (EAL2 or higher) where the product class supports it"
+      ],
+      "data_handling_requirements": "Management interfaces must support role-based access control and must not include default credentials.",
+      "review_frequency": "Annual"
+    },
+    {
+      "category_name": "Facilities and Physical Security",
+      "required_certifications": [
+        "ISO/IEC 27001 (physical security scope)"
+      ],
+      "data_handling_requirements": "Visitor logs retained for 12 months; access to secure areas restricted to authorised staff with background verification.",
+      "review_frequency": "Every 2 years"
+    }
+  ]
+}

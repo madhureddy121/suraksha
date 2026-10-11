@@ -1,0 +1,13 @@
+# Document ID: NCS-IT-INC-LOG-05
+# Version: 1.2
+# Effective Date: 2026-08-13
+incident_id,date,category,severity,status,summary,resolution_notes
+SEC-2213,2026-08-02,Phishing,High,Open,Finance team member clicked a credential-harvesting link; mailbox rules were created by the attacker,Mailbox rules removed; credential reset pending user confirmation
+SEC-2214,2026-08-03,Malware,Medium,Resolved,Endpoint flagged an unsigned binary in a downloaded installer,Quarantined by EDR; device reimaged on 2026-08-04
+SEC-2215,2026-08-04,Unauthorised Access,Critical,Open,Three failed VPN logins from an unrecognised network targeted a privileged account,Account locked; forensic review of VPN logs in progress
+SEC-2216,2026-08-05,Data Loss Prevention,Low,Resolved,Sensitive file uploaded to a personal cloud storage link,User removed the link; reminder training assigned
+SEC-2217,2026-08-07,Phishing,Medium,Resolved,Mass phishing email sent to 40 staff; two users reported it without clicking,No compromise; sender domain blocked
+SEC-2218,2026-08-08,Unauthorised Access,High,Resolved,Shared admin password suspected after a contractor departure,Password rotated; access review completed
+SEC-2219,2026-08-10,Malware,High,Open,Ransomware behaviour blocked on a finance workstation; no encryption observed,Host isolated; root-cause investigation ongoing
+SEC-2220,2026-08-11,Phishing,Low,Resolved,Vendor invoice scam email impersonating a supplier,Reported via Report Phishing; sender blocked
+SEC-2221,2026-08-12,Policy Violation,Medium,Resolved,Confidential document shared outside the approved collaboration workspace,Access revoked; user completed retraining
